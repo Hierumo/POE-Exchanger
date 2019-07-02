@@ -16,7 +16,7 @@
 
         let message = "Buy chaos orbs first";
         if (jewelToChaos * chaosToFusing < jewelToFusing) {
-            message = "Buy jeweller's orbs";
+            message = "Buy fusing orbs";
         }
         text.textContent = message;
     };
